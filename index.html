@@ -1,0 +1,86 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CARE Ambulance Services Shillong</title>
+<link rel="stylesheet" href="assets/styles.css"/>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<meta name="theme-color" content="#ef4444">
+
+<style>
+.whatsapp-float{position:fixed;right:18px;bottom:18px;z-index:99;display:flex;align-items:center;gap:10px;
+background:rgba(37,211,102,0.15);border:1px solid rgba(37,211,102,0.35);padding:8px 10px;border-radius:999px;
+backdrop-filter:blur(6px);text-decoration:none;color:#d1fae5;font-weight:700}
+.whatsapp-float img{width:34px;height:34px;display:block}
+.whatsapp-float span{display:none}
+@media(min-width:640px){.whatsapp-float span{display:inline}}
+</style>
+
+</head><body>
+<header class="header"><div class="logo">CARE Ambulance Services Shillong</div>
+<a class="call-btn" href="tel:+919362050898">Call 9362050898</a></header>
+
+<section class="hero">
+<div class="slider"><div class="slide" style="background-image:url('assets/eeco_1.jpg');"></div>
+<div class="slide" style="background-image:url('assets/eeco_2.jpg');"></div>
+<div class="slide" style="background-image:url('assets/eeco_3.jpg');"></div>
+<div class="slide" style="background-image:url('assets/ertiga_1.jpg');"></div>
+<div class="slide" style="background-image:url('assets/ertiga_2.jpg');"></div>
+<div class="slide" style="background-image:url('assets/ertiga_3.jpg');"></div></div>
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<h1 class="h1">24/7 Emergency Ambulance Service</h1>
+<p class="lead">Swift, Safe & Reliable Medical Transport in Shillong</p>
+<a class="cta" href="tel:+919362050898">Call 9362050898</a>
+<a class="alt" href="tel:+918257011496">Alternate: 8257011496</a>
+</div></section>
+
+<main>
+<section class="section"><h2>Eeco Ambulance</h2>
+<div class="grid">
+<div class="card"><img src="assets/eeco_1.jpg" onclick="openModal(this.src)"/></div>
+<div class="card"><img src="assets/eeco_2.jpg" onclick="openModal(this.src)"/></div>
+<div class="card"><img src="assets/eeco_3.jpg" onclick="openModal(this.src)"/></div>
+</div></section>
+
+<section class="section"><h2>Ertiga Ambulance</h2>
+<div class="grid">
+<div class="card"><img src="assets/ertiga_1.jpg" onclick="openModal(this.src)"/></div>
+<div class="card"><img src="assets/ertiga_2.jpg" onclick="openModal(this.src)"/></div>
+<div class="card"><img src="assets/ertiga_3.jpg" onclick="openModal(this.src)"/></div>
+</div></section>
+
+<section class="section"><h2>Contact & Location</h2>
+<div class="contact-grid">
+<div>
+<p>📞 9362050898 / 8257011496</p>
+<p>📧 careambulance.shillong@gmail.com</p>
+<div class="social">
+<a href="https://instagram.com/care_ambulance_ser_shillong" target="_blank"><img src="assets/icon_ig.svg" style="width:22px;margin-right:6px;vertical-align:middle;">care_ambulance_ser_shillong</a>
+</div>
+</div>
+<div class="mapbox">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5216644838063!2d91.8744563!3d25.5948465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e19d0872f38ad%3A0x9cd0b04289ef6b17!2sMawlai%20Phudmuri%2C%20Shillong%20793008%2C%20Meghalaya!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" loading="lazy"></iframe>
+</div>
+</div></section>
+</main>
+
+<div id="modal" class="modal" onclick="closeModal()"><img id="modalImg"/></div>
+<footer class="footer">© 2025 CARE Ambulance Services Shillong <br>
+  <span style="font-size:14px;color:#ccc;">
+    Site developed & maintained by <strong>Interdisciplinary Engineers Forum (IEF) Shillong</strong>
+  </span>
+</footer>
+
+<script>
+const slides=document.querySelectorAll('.slide');let i=0;
+function show(n){slides.forEach((s,j)=>s.classList.toggle('active',j===n));}
+show(0);setInterval(()=>{i=(i+1)%slides.length;show(i);},5000);
+function openModal(src){document.getElementById('modalImg').src=src;document.getElementById('modal').style.display='flex'}
+function closeModal(){document.getElementById('modal').style.display='none'}
+</script>
+
+<a class="whatsapp-float" href="https://wa.me/919362050898?text=Hi%2C%20I%20need%20an%20ambulance.%20Please%20assist." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <img src="assets/icon_whatsapp.svg" alt="WhatsApp"/><span>WhatsApp Us</span>
+</a>
+
+</body></html>
