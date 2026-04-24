@@ -1,0 +1,74 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "image": "assets/Ertiga_ambulance.jpg",
+      "alt": "CARE Ertiga Ambulance with Oxygen - Shillong",
+      "caption": "Ertiga Ambulance",
+      "subtitle": "Equipped with Oxygen & Emergency Medical Supplies",
+      "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20Ertiga%20Ambulance.%20Please%20assist."
+    },
+    {
+      "id": 2,
+      "image": "assets/ertiga_2.jpg",
+      "alt": "CARE Ertiga Ambulance with Oxygen - Shillong",
+      "caption": "Ertiga Ambulance",
+      "subtitle": "Equipped with Oxygen & Emergency Medical Supplies",
+     "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20Ertiga%20Ambulance.%20Please%20assist."
+    },
+    {
+      "id": 3,
+      "image": "assets/ertiga_3.jpg",
+      "alt": "CARE Ertiga Ambulance with Oxygen - Shillong",
+      "caption": "Ertiga Ambulance",
+      "subtitle": "Equipped with Oxygen & Emergency Medical Supplies",
+     "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20Ertiga%20Ambulance.%20Please%20assist."
+    },
+    {
+      "id": 4,
+      "image": "assets/Eeco_Ambulance.jpg",
+      "alt": "CARE Eeco Ambulance with Oxygen Support - Shillong Meghalaya",
+      "caption": "EECO Ambulance",
+      "subtitle": "Compact & Agile — With Oxygen Support for Critical Patients",
+      "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20EECO%20Ambulance.%20Please%20assist."
+    },
+    {
+      "id": 5,
+      "image": "assets/Air_Ambulance.jpg",
+      "alt": "CARE Ambulance Interior - Oxygen and Medical Equipment",
+      "caption": "Air Ambulance",
+      "subtitle": "Oxygen Supply, First Aid & Monitoring Equipment On Board",
+     "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20EECO%20Ambulance.%20Please%20assist."
+    },
+    {
+      "id": 6,
+      "image": "assets/Train_Ambulance.jpg",
+      "alt": "CARE Train Ambulance Fleet - 24x7 Emergency Service",
+      "caption": "Train Ambulance 24 × 7 Availability",
+      "subtitle": "Oxygen Supply, First Aid & Monitoring Equipment On Board",
+       "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20EECO%20Ambulance.%20Please%20assist."
+    },
+ {
+      "id": 7,
+      "image": "assets/ICU_Ambulance.jpg",
+      "alt": "CARE ICU Ambulance Fleet - 24x7 Emergency Service",
+      "caption": "ICU Ambulance 24 × 7 Availability",
+      "subtitle": "No Wait. No Delay. Serving Shillong Around the Clock.",
+       "cta_text": "Book Now",
+      "cta_link": "https://wa.me/919362050898?text=Hi%2C%20I%20need%20to%20book%20an%20EECO%20Ambulance.%20Please%20assist."
+    }
+  ],
+  "settings": {
+    "autoplay": true,
+    "interval_ms": 5000,
+    "transition_ms": 700,
+    "show_dots": true,
+    "show_arrows": true
+  }
+}
